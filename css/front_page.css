@@ -1,0 +1,115 @@
+.name {
+  font-family: 'Pacifico', cursive;
+  color: #011936;
+  font-size: 60px;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1469212044023-0e55b4b9745a?ixlib=rb-0.3.5&s=d08665579a7cd8563e15f0579d6145e9&auto=format&fit=crop&w=1355&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #6D8366;
+  margin-top: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.container {
+  background: white;
+  width: 500px;
+  height: 600px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.small-container {
+  background: white;
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+
+.card-name {
+  font-family: 'Pacifico', cursive;
+  color: #011936;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qualif-name {
+  font-family: 'Pacifico', cursive;
+  color: #011936;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-description {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 7px;
+}
+
+.text {
+  color: #F2B335;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.text-title {
+  font-size: 15px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+  margin-top: 90px;
+}
+
+.slick-next {
+  right: 100px;
+  z-index: 999;
+  margin-top: 90px;
+}
